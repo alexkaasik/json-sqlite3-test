@@ -41,7 +41,6 @@ def Execute_Query_Delete(connection, query:str):
     except Error as e:
         print(f"del:{e}")
 
-
 ### SQL ###
 cr_user_tb="""
 CREATE TABLE IF NOT EXISTS users(
